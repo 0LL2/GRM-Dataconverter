@@ -62,10 +62,7 @@ namespace GRM_Dataconverter
 
         public class QuSpin
         {
-            // QuSpin
-
             public string Mag_TS { get; set; }
-
             public string TimeStamp { get; set; }
             public string Mag2 { get; set; }
             public string Sens { get; set; }
@@ -93,10 +90,9 @@ namespace GRM_Dataconverter
             textBox2.Text = "";
             label1.Visible = false;
             progressBar1.Value = 0;
-            // Show the dialog and get result.
             DialogResult result = openFileDialog1.ShowDialog();
             progressBar1.Value = 5;
-            if (result == DialogResult.OK) // Test result.
+            if (result == DialogResult.OK)
             {
                 progressBar1.Value = 10;
                 string tiedosto = openFileDialog1.FileName;
@@ -173,12 +169,9 @@ namespace GRM_Dataconverter
                         {
                             records[i].GPS_Min = 0 + records[i].GPS_Min;
                         }
-                        //if (records[i].GPS_S.Length > 6)
-                        
                         records[i].AIKA = records[i].GPS_H + records[i].GPS_Min + records[i].GPS_S;
                     }
                     progressBar1.Value = 60;
-                    //Console.WriteLine(records.Count());
                     progressBar1.Value = 70;
                     var config = new CsvConfiguration(CultureInfo.InvariantCulture)
                     {

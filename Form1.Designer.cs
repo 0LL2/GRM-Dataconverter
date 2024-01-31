@@ -60,21 +60,21 @@
             this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(93, 14);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(606, 20);
+            this.textBox1.Size = new System.Drawing.Size(879, 20);
             this.textBox1.TabIndex = 1;
             // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(93, 40);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(606, 23);
+            this.progressBar1.Size = new System.Drawing.Size(879, 23);
             this.progressBar1.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(618, 228);
+            this.label1.Location = new System.Drawing.Point(889, 231);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 31);
             this.label1.TabIndex = 3;
@@ -90,7 +90,7 @@
             this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(93, 69);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(606, 20);
+            this.textBox2.Size = new System.Drawing.Size(879, 20);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
@@ -136,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(713, 271);
+            this.ClientSize = new System.Drawing.Size(984, 271);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox3);
